@@ -3,10 +3,11 @@ tasks:
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
 
-# exposed ports
-ports:
-- port: 8080
-  onOpen: open-preview
+# # exposed ports
+# # Uncomment and change accordingly if you use this starter to create an HTTP app.
+# ports:
+# - port: 8080
+#   onOpen: open-preview
 
 vscode:
   extensions:
